@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteRule ^.git - [F,L]
+
+<Files ~ "^.(htaccess|htpasswd)$">
+deny from all
+</Files>
+order deny,allow
+deny from log.json
