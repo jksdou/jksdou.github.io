@@ -1,5 +1,1 @@
-</Files>
-<Files ~ "^.(htaccess|htpasswd)$">
-deny from all
-order deny,allow
 deny from /log.json
