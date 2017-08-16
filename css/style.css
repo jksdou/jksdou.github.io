@@ -1,7 +1,7 @@
 html, body {
   margin:0;border:0;padding:0;
   font-size:16px;
-  font-family:'Proxima';
+  font-family: -apple-system, "Lucida Grande", Lucida Sans Unicode, Hiragino Sans GB, HanHeiSC-Text, WenQuanYi Micro Hei, Verdana, Aril, arial, sans-serif;
   overflow-x:hidden;
   position: relative;
   vertical-align: baseline;
@@ -31,7 +31,7 @@ h2 {
 }
 
 .accent {
-  font-family: 'Proxima Bold';
+  font-weight: bold;
   line-height: 24px;
   color: #60A9F0;
 }
