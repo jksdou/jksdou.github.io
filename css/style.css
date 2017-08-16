@@ -36,16 +36,6 @@ h2 {
   color: #60A9F0;
 }
 
-@font-face {
-  font-family: 'Proxima';
-  src: url(../fonts/ProximaNova-Regular.otf);
-}
-
-@font-face {
-  font-family: 'Proxima Bold';
-  src: url(../fonts/ProximaNova-Bold.otf);
-}
-
 /* preloader section */
 .preloader {
   position: fixed;
