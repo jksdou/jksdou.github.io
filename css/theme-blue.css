@@ -3,46 +3,31 @@
 }
 
 .shadow {
-	text-shadow: 1px 1px #000;
+  text-shadow: 1px 1px #000;
 }
 
 .hello {
-	color: #66CCFF;
+  color: #66CCFF;
 }
 
-.spinner-wordpress.spinner {
-  background-color: #3366CC;
-}
-
-header hr {
-  border-color: #3366CC;
-}
-
-/* about section */
 .about {
   background: #fff;
-  box-shadow: 0px 1px 5px rgba(50,50,50,0.08);
+  box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.08);
 }
 
-/* skills section */
-.skills {
+header hr,
+.skills,
+.education,
+.experience,
+.icons .fa,
+.spinner-wordpress.spinner {
   background: #3366CC;
 }
+
 .skills .progress .progress-bar-primary {
   background: #204090;
 }
 
-.education {
-  background: #3366CC;
-}
-
-/* experience section */
 .experience {
-  background: #3366CC;
   color: #f5f5f5;
-}
-
-/* icons */
-.icons .fa {
-  background: #3366CC;
 }

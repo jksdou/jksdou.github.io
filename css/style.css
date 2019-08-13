@@ -226,6 +226,10 @@ footer {
   padding-bottom: 100px;
 }
 
+footer a {
+  color: #f9f9f9;
+}
+
 /* icon */
 .icons {
   padding: 0;

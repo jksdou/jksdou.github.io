@@ -1,9 +1,9 @@
-$(window).load(function() {
+$(window).load(function () {
     $('.preloader').delay(500).fadeOut("slow");
 });
 
-$(function() {
-    jQuery(document).ready(function() {
+$(function () {
+    jQuery(document).ready(function () {
         $('body').backstretch([
             "static/douzhenjiang/background-0.jpg",
             "static/douzhenjiang/background-1.jpg",
