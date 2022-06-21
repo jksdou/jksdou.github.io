@@ -85,8 +85,8 @@ header hr {
   height: 30px;
   border-radius: 30px;
   position: relative;
-  -webkit-animation: innerCircle 1s linear infinite;
-          animation: innerCircle 1s linear infinite;
+  -webkit-animation: innerCircle 0.5s linear infinite;
+          animation: innerCircle 0.5s linear infinite;
 }
 .spinner .inner-circle {
   display: block;

@@ -1,0 +1,21 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+# 只许绑定的域名访问，其他域名301跳转
+RewriteCond %{HTTP_HOST} !^jksdou.cn$ [NC]
+RewriteRule ^(.*)$ http://jksdou.cn/$1 [L,R=301]
+# RewriteRule (.*) http://jksdou.cn/$1 [L,R=301]
+
+# # 对绑定目录下与 同名的目录的处理
+# RewriteCond %{REQUEST_URI} ^jksdou.com [NC]
+# RewriteCond %{QUERY_STRING} !^(.*)
+# # www.douzhenjiang.cn/jksdou.com 实际上访问 www.douzhenjiang.cn/jksdou.com/jksdou.com
+# RewriteRule ^(.*)$ /%{REQUEST_URI}/%{REQUEST_URI}/$1 [L,QSA]
+
+# root
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ 404.html [QSA,PT,L]
+
+</IfModule>

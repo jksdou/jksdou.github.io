@@ -1,6 +1,31 @@
 <IfModule mod_rewrite.c>
-RewriteEngine on
+RewriteEngine On
+RewriteBase /
+
+# Redirect www to non-www
+RewriteCond %{HTTP_HOST} ^www\.(.*)
+RewriteRule (.*) http://%1/$1 [R=301,L]
+
+
+# 绑定 douzhenjiang.com 到子目录 /douzhenjiang.com/
+RewriteCond %{HTTP_HOST} ^douzhenjiang.com$ [NC]
+RewriteCond %{REQUEST_URI} !^/douzhenjiang.com/
+RewriteRule ^(.*)$ douzhenjiang.com/$1 [L,QSA]
+
+# 绑定 douzhenjiang.cn 到子目录 /douzhenjiang.cn/
+RewriteCond %{HTTP_HOST} ^douzhenjiang.cn$ [NC]
+RewriteCond %{REQUEST_URI} !^/douzhenjiang.cn/
+RewriteRule ^(.*)$ douzhenjiang.cn/$1 [L,QSA]
+
+# 绑定 jksdou.cn 到子目录 /jksdou.cn/
+RewriteCond %{HTTP_HOST} ^jksdou.cn$ [NC]
+RewriteCond %{REQUEST_URI} !^/jksdou.cn/
+RewriteRule ^(.*)$ jksdou.cn/$1 [L,QSA]
+# 可以绑定多个，只需重复上三行代码并更改一下域名、目录名就行了
+
+# root
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
- </IfModule>
+
+</IfModule>

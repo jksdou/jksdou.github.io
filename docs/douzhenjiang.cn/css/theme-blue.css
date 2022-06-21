@@ -1,0 +1,33 @@
+.accent {
+  color: #60A9F0;
+}
+
+.shadow {
+  text-shadow: 1px 1px #000;
+}
+
+.hello {
+  color: #66CCFF;
+}
+
+.about {
+  background: #fff;
+  box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.08);
+}
+
+header hr,
+.skills,
+.education,
+.experience,
+.icons .fa,
+.spinner-wordpress.spinner {
+  background: #3366CC;
+}
+
+.skills .progress .progress-bar-primary {
+  background: #204090;
+}
+
+.experience {
+  color: #f5f5f5;
+}

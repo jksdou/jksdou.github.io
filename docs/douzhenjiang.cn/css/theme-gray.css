@@ -1,0 +1,49 @@
+.accent {
+  color: #A0A0A0;
+}
+
+.shadow {
+	text-shadow: 1px 1px #000;
+}
+
+.hello {
+	color: #CFCFCF;
+}
+
+/* preloader section */
+
+.spinner-wordpress.spinner {
+  background-color: #666666;
+}
+
+header hr {
+  border-color: #666666;
+}
+
+/* about section */
+.about {
+  background: #fff;
+  box-shadow: 0px 1px 5px rgba(50,50,50,0.08);
+}
+
+/* skills section */
+.skills {
+  background: #666666;
+}
+.skills .progress .progress-bar-primary {
+  background: #383838;
+}
+
+.education {
+  background: #666666;
+}
+
+/* experience section */
+.experience {
+  background: #666666;
+}
+
+/* social icon section */
+.icons .fa {
+  background: #666666;
+}

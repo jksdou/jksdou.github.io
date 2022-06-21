@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Jackson Dou</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+
+    <style>
+        .body-background {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: #fff;
+            background-image: url(./assets/img/bingBackground.png);
+            background-position: center center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        #article-carousel {
+            height: 200px;
+        }
+
+        #article-carousel .shade {
+            height: 200px;
+        }
+
+        #article-carousel .title {
+            max-height: 3rem;
+            overflow: hidden;
+        }
+
+        #article-carousel .summary {
+            height: 4.5em;
+            overflow: hidden;
+        }
+
+        .card-text {
+            min-height: 3rem;
+        }
+
+        .footer {
+            width: 100%;
+            /* height: 60px; */
+            min-height: 60px;
+            line-height: 60px;
+            background-color: rgba(245, 245, 245, 0.8);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="body-background"></div>
+    <div class="container">
+        <div id="article-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#article-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="阿里云优惠活动"></button>
+                <button type="button" data-bs-target="#article-carousel" data-bs-slide-to="1" aria-label="阿里云优惠活动"></button>
+            </div>
+            <div class="carousel-inner">
+                <a class="carousel-item active" style="background-color: #21252996" href="https://www.aliyun.com/minisite/goods?userCode=mcuct8z4&share_source=copy_link" target="_blank">
+                    <img class="d-block w-100" style="height: 200px;" src="./assets/img/970x250.jpeg"/>
+                    <div class="carousel-caption d-md-block">
+                        <h5 class="title">爆款云服务器低至3折，1核1G 1M 仅17月/月</h5>
+                        <p class="summary"></p>
+                    </div>
+                </a>
+                <a class="carousel-item" style="background-color: #21252996" href="https://www.aliyun.com/minisite/goods?userCode=mcuct8z4&share_source=copy_link" target="_blank">
+                    <img class="d-block w-100" style="height: 200px;" src="./assets/img/970x250.jpeg"/>
+                    <div class="carousel-caption d-md-block">
+                        <h5 class="title">爆款云服务器低至3折，1核1G 1M 仅17月/月</h5>
+                        <p class="summary"></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row col-xs-offset-10">
+            <div class="col-xl-12">
+                <div class="card mt-4">
+                    <div class="card-header">
+                        <h3>欢迎访问我的站点</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>不忘初心，方得始终！</p>
+                        <p>世上无难事，只怕有心人！</p>
+                        <p>只要坚持，梦想将会更近，加油！</p>
+                        <p>技术之路，永无止步，没有进步即是退步。只有不断学习，方能不被淘汰！</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <h5 class="card-title">我的博客</h5>
+                        <p class="card-text">唐钰豆豆的博客 —— 生活博客，记录生活。</p>
+                        <a class="btn btn-primary" href="https://doudoudzj.com/">马上打开</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <h5 class="card-title">前端笔记</h5>
+                        <p class="card-text">技术博客，主要记录前端开发、技术分享。</p>
+                        <a class="btn btn-primary" href="https://uinote.com/">马上打开</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <h5 class="card-title">国庆头像挂件生成</h5>
+                        <p class="card-text">@微信官方 请给我一面国旗</p>
+                        <a class="btn btn-primary" href="./avatar/">马上打开</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <h5 class="card-title">域名解析记录查询</h5>
+                        <p class="card-text">查询域名的解析记录，确认域名是否有解析或解析的对不对。</p>
+                        <a class="btn btn-primary" href="./Domain/dnsRecord.html">马上打开</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <h5 class="card-title">国际化域名转换</h5>
+                        <p class="card-text">将中文域名和和国际化域名互转，让中文域名也能跟普通域名一样使用。</p>
+                        <a class="btn btn-primary" href="./Domain/idn.html">马上打开</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <h5 class="card-title">浏览器信息</h5>
+                        <p class="card-text">根据 User-Agent 分析设备信息</p>
+                        <a class="btn btn-primary" href="userAgent.html">马上打开</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <h5 class="card-title">域名Whois信息查询</h5>
+                        <p class="card-text">查询域名的相关注册信息</p>
+                        <a class="btn btn-primary" href="./whois/">马上打开</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <h5 class="card-title">密码生成工具</h5>
+                        <p class="card-text">纯前端计算、本地浏览器，通过记忆密码+区分代码按一定规则生成密码</p>
+                        <a class="btn btn-primary" href="./pwd-generator/index.html" target="_blank">马上打开</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mt-4">
+            <div class="card-header">友情链接</div>
+            <div class="card-body">
+                <a class="btn btn-link" href="https://uinote.com" target="_blank">前端笔记</a>
+                <a class="btn btn-link" href="https://crogram.com" target="_blank">程江科技</a>
+                <a class="btn btn-link" href="https://crogram.org" target="_blank">程江开源</a>
+                <a class="btn btn-link" href="https://pay.croidc.cn" target="_blank">程江支付</a>
+                <a class="btn btn-link" href="https://croidc.com" target="_blank">程江云</a>
+                <a class="btn btn-link" href="https://u-id.cn" target="_blank">统一身份认证</a>
+            </div>
+        </div>
+        <footer class="footer mt-4 text-center">
+            <span>Copyright &copy; 2022 Jackson Dou</span>
+            <span><a href="http://beian.miit.gov.cn/" target="_blank">豫ICP备14006598号</a></span>
+            <!-- <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=00000000000" class="d-none d-sm-inline" target="_blank"><img src="./assets/img/beian-icon.png">豫公网安备 00000000000 号</a> -->
+        </footer>
+    </div>
+
+    <script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://cdn.staticfile.org/popper.js/2.9.3/umd/popper.min.js"></script> -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
