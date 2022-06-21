@@ -1,6 +1,6 @@
 # Personal Profile
 
-[doudoudzj.github.io](doudoudzj.github.io)
+[jksdou.github.io](jksdou.github.io)
 
-Dou Zhenjiang's Profile Page（豆振江的个人简介页面）
+Jackson Dou's Profile Page（豆振江的个人简介页面）
 
