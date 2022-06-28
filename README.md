@@ -1,6 +1,5 @@
-# Personal Profile
+# Jackson Dou's Profile Page
 
-[jksdou.github.io](jksdou.github.io)
+[jksdou.github.io](https://jksdou.github.io)
 
-Jackson Dou's Profile Page（豆振江的个人简介页面）
 
